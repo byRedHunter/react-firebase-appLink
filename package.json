@@ -1,12 +1,9 @@
 {
+	"homepage": "https://byRedHunter.github.io/react-firebase-appLink",
 	"name": "react-firestore",
 	"version": "0.1.0",
 	"private": true,
-	"author": {
-		"name": "Jhonny Quispe Navarro",
-		"email": "jhonny.quispejl@gmail.com",
-		"url": "https://github.com/byRedHunter"
-	},
+	"author": "Jhonny Quispe Navarro <jhonny.quispejl@gmail.com> (https://github.com/byRedHunter)",
 	"dependencies": {
 		"@testing-library/jest-dom": "^4.2.4",
 		"@testing-library/react": "^9.5.0",
@@ -19,6 +16,8 @@
 		"sweetalert2": "^9.17.0"
 	},
 	"scripts": {
+		"predeply": "npm run build",
+		"deploy": "gh-pages -d build",
 		"start": "react-scripts start",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
@@ -38,5 +37,19 @@
 			"last 1 firefox version",
 			"last 1 safari version"
 		]
+	},
+	"description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+	"main": "index.js",
+	"devDependencies": {
+		"gh-pages": "^3.1.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/byRedHunter/react-firebase-appLink.git"
+	},
+	"keywords": [],
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/byRedHunter/react-firebase-appLink/issues"
 	}
 }
